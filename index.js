@@ -16,7 +16,7 @@ const Prism = require(prismCore);
 
 const prelude = [
   'prism-clike', 'prism-markup', 'prism-javascript', 'prism-typescript',
-  'prism-c', 'prism-ruby', 'prism-css',
+  'prism-c', 'prism-ruby', 'prism-css', 'prism-cpp', 'prism-java', 'prism-javadoclike', 'prism-sql', 'prism-turtle', 'prism-t4-templating', 'prism-markup-templating',
 ];
 const prismComponents = path.dirname(require.resolve(prismCore));
 const components = prelude.concat(fs.readdirSync(prismComponents))
